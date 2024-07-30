@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+ 
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+button{
+  all: unset;
+}
+.fullpad{
+  padding: 0px!important;
+  margin: 0px!important;
+}
+.fontAlign{
+  font-size: 15px;
+}
+li{list-style-type:none!important;}
+a{text-decoration:none!important;}
+html{scroll-behavior: smooth;}
+
+.headerStyle{
+  background-color: #39b3c1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding-left: 30px!important;
+}
+.leftIcon{
+  font-size: 25px;
+}
+.segmentBtn{
+background: #d5d8d812;
+    padding: 10px 15px;
+    border: 2px solid black;
+    color: black;
+}
+.offCanvasBg{
+  background-color: #39b3c1;
+  padding: 21.5px!important;
+}
+.segmentInput{
+width: 100%;
+padding: 6px;
+}
+
+.dotButton{
+  width: 8px;
+height: 8px;
+border-radius: 50px;
+}
+.tracksAlign{
+  font-size: 13px;
+}
+.minusAlignMent{
+  background: #d0d3d359;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+.minusButton{
+  font-size: 30px;
+    position: absolute;
+    top: -6px;
+    left: 8px;
+}
+.footStyle{
+  background-color: #000000;
+  position: fixed;
+  bottom: 0;
+  padding: 10px 15px;
+  width: 100%;
+}
+.errorFont{
+  font-size: 13px;
+}
+.formStyle select{
+  padding: 5px 10px;
+  width: 75%;
+  
+  font-size: 14px;
+}
+.hoverEffect{
+  transition: transform .5s;
+}
+.hoverEffect:hover {
+  color: darkblue!important;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
